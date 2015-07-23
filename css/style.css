@@ -1,0 +1,121 @@
+@font-face {
+    font-family: DS-Digital; 
+    src: url(/fonts/DS-DIGIT.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Helvetica Neue Bold; 
+    src: url(/fonts/HelveticaNeueBold.ttf); /* Путь к файлу со шрифтом */
+   }
+body {
+    font-family: "Helvetica Neue Bold", Helvetica, Arial, serif;
+    font-size:12pt;
+  }
+.background{
+    margin:auto;
+    width:735px;
+    height:350px;
+    background:url('/pictures/calculator_background.png') no-repeat;
+    padding-top: 20px;
+}
+    
+.calc-main {
+    margin:auto;
+    width:216px;
+    height:259px;
+    padding:17px;
+    background: url('/pictures/calculator_bg_main.png') no-repeat;
+}
+        
+.screen-frame {
+    display:inline-block;
+    width: 180px;
+    height: 44px;
+    background: url('/pictures/screen_frame.png') no-repeat;
+}
+.screen {
+    display:inline-block;
+    width: 174px;
+    height: 38px;
+    margin-left: 3px;
+    margin-top: 3px;
+    background: url('/pictures/screen_glass.png') no-repeat;
+    line-height: 38px;
+    
+    
+}
+.screen .screen-digits {
+    display: inline-block;
+    width: 160px;
+    height:38px;
+    margin: 0 7px 0 7px;
+    text-align: right;
+    font-family: "DS-Digital", Helvetica, Arial, sans-serif;
+    font-size: 30pt;
+    white-space:nowrap;
+}
+.keyboard {
+    display:block;
+    width:180px;
+    height:156px;
+    margin-top:22px;
+    padding:2px 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    
+}
+.keyboard ul{
+    display:block;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.keyboard ul li{
+    display:inline-block;
+     
+    
+}
+.keyboard .btn{
+    width:39px;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 0;
+    margin-right:3px;
+    margin-bottom:7px;
+    color:#e1e1e1;
+    text-align: center;
+    
+    
+ 
+}
+.keyboard .btn:nth-child(4n) {
+    margin-right: 0;
+}
+.btn-num{
+    background: url('/pictures/btn_num.png') no-repeat;
+}
+.btn-mem{
+    background: url('/pictures/btn_mem.png') no-repeat;
+}
+.btn-math{
+    background: url('/pictures/btn_math.png') no-repeat;
+}
+.btn-equals{
+    background: url('/pictures/btn_equals.png') no-repeat;
+}
+.btn:hover{
+    cursor: url('/pictures/cursor.png'), pointer;
+}
+.btn-num-pressed{
+   background:  url('/pictures/btn_num_pressed.png') no-repeat;
+   
+}
+.btn-mem-pressed{
+    background: url('/pictures/btn_mem_pressed.png') no-repeat;
+}
+.btn-math-pressed{
+    background: url('/pictures/btn_math_pressed.png') no-repeat;
+}
+.btn-equals-pressed{
+    background: url('/pictures/btn_equals_pressed.png') no-repeat;
+}
+    
