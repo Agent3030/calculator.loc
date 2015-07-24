@@ -12,9 +12,9 @@ body {
   }
 .background{
     margin:auto;
-    width:735px;
+    width:1024px;
     height:350px;
-    background:url('/pictures/calculator_background.png') no-repeat;
+    background:url('/pictures/calculator_background.png') repeat;
     padding-top: 20px;
 }
     
